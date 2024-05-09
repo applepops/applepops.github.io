@@ -76,10 +76,10 @@ const CONFIG = {
     'MySQL',
     'Git',
     'Docker',
-    'HTML'
+    'HTML',
     'CSS',
-    'Python'
-    'C'
+    'Python',
+    'C',
   ],
   experiences: [
     {
