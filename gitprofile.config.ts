@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
-        limit: 6, // How many projects to display.
+        limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -37,7 +37,7 @@ const CONFIG = {
   },
   seo: {
     title: 'Portfolio of Jihee Hwang',
-    description: '',
+    description: 'Hello, I\'m Jihee Hwang, DOUBLE majoring in Korean Language and Literature AND Software Engineering in Sungkyunkwan Univ.',
     imageURL: '',
   },
   social: {
@@ -76,16 +76,33 @@ const CONFIG = {
     'HTML',
     'CSS',
     'Python',
-    'C',
+    'C++',
+    'OCaml',
   ],
   experiences: [
     {
-    },
-    {
+      company: 'Google Developer Student Clubs: Sungkyunkwan University',
+      position: 'GDSC SKKU Community',
+      from: 'September 2022',
+      to: 'Present',
+      companyLink: 'https://gdsc.community.dev/sungkyunkwan-university-seoul-south-korea/',
     },
   ],
   certifications: [
     {
+      name: 'JLPT',
+      body: 'Passed N2',
+      year: 'July 2023',
+    },
+    {
+      name: 'TOEIC',
+      body: '975/990',
+      year: 'March 2024',
+    },
+    {
+      name: 'ADsP',
+      body: 'Passed',
+      year: 'August 2023',
     },
   ],
   educations: [
@@ -93,7 +110,7 @@ const CONFIG = {
       institution: 'SungKyunKwan Univ',
       degree: 'Bachelor\'s Degree',
       from: '2020',
-      to: 'now',
+      to: 'Present',
     },
   ],
   publications: [
@@ -101,7 +118,7 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
