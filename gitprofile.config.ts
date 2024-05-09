@@ -94,7 +94,7 @@ const CONFIG = {
   educations: [
     {
       institution: 'SungKyunKwan Univ',
-      degree: 'Bachelor's Degree',
+      degree: 'Bachelor\'s Degree',
       from: '2020',
       to: 'now',
     },
